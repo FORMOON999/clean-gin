@@ -1,4 +1,4 @@
-module localhost.com/gin
+module localhost.com/clean-gin
 
 go 1.19
 
