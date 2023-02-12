@@ -3,5 +3,6 @@ package main
 import routers "localhost.com/clean-gin/config"
 
 func main() {
-	routers.InitRouter()
+	r := routers.InitRouter()
+	r.Run(":9501")
 }
